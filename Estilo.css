@@ -1,0 +1,53 @@
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+#menu li > a {
+
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(87, 87, 87);
+}
+
+#menu form > button {
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-inner {
+
+    max-height: 70rem;
+}
+#color-bg2{
+
+    background-color: rgb(13, 103, 214);
+}
+
+
+/*===========================================================*/
+/*=========================== @ =============================*/
+/*===========================================================*/
+@media(max-width:768px){
+#intro, #equipo {
+    width: 90% !important;
+}
+.servicio-fila {
+    width: 100% !important;
+    text-align: center;
+}
+#equipo p {
+    display: none;
+}
+
+
+
+}
+
+@media(max-width: 576px) {
+    .icono-wrap{
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+ 
